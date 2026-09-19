@@ -38,6 +38,7 @@ matugen
 nautilus
 neovim
 network-manager-applet
+networkmanager-dmenu
 nm-connection-editor
 nwg-displays
 nwg-dock-hyprland
