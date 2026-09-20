@@ -219,10 +219,17 @@
   },
   // Clock
   "clock": {
-    "format": "{:%d %b %H:%M %a}",
+    "format": "{:%H:%M}",
     "on-click": "qs ipc call calendar toggle",
     "timezone": "",
     "tooltip": false
+  },
+  // Date
+  "custom/date": {
+    "format": "{}",
+    "on-click": "qs ipc call calendar toggle",
+    "interval": 60,
+    "exec": "date +'%a, %d %b'"
   },
   // System
   "custom/system": {

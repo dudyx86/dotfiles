@@ -15,6 +15,7 @@
     "modules-left": [
         //"custom/appmenu",
         "clock",
+        "custom/date",
         //"wlr/taskbar",
         //"group/quicklinks",
         //"custom/nowplaying",        

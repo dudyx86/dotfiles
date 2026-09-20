@@ -271,10 +271,21 @@ window#waybar.empty #window {
 
 #clock {
     margin-left: 12px;
-    margin-right: 12px;
+    margin-right: 4px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 #clock:hover {
+}
+
+#custom-date {
+    font-size: 14px;
+    opacity: 0.85;
+    margin-right: 12px;
+}
+
+#custom-date:hover {
 }
 
 /* -----------------------------------------------------
