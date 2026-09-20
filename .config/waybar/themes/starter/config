@@ -1,7 +1,7 @@
 {
     // General Settings
     // Position TOP
-    "layer": "top",
+    "layer": "bottom",
     "margin-bottom": 0,
     // Position BOTTOM
     // "position": "bottom",

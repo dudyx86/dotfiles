@@ -1,6 +1,6 @@
 {
     // General Settings
-    "layer": "top",
+    "layer": "bottom",
     "margin-top": 8,
     "margin-bottom": 0,
     "margin-left": 8,
