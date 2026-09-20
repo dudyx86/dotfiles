@@ -16,7 +16,7 @@
     ],
     // Modules Left
     "modules-left": [
-        "custom/appmenu",
+        //"custom/appmenu",
         "custom/settings",
         "hyprland/window",
         "custom/starter"
@@ -31,7 +31,7 @@
         "pulseaudio",
         "bluetooth",
         "battery",
-        "network",
+        //"network",
         "group/hardware",
         "custom/cliphist",
         "custom/hypridle",
