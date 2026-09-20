@@ -49,6 +49,7 @@ pavucontrol
 playerctl
 polkit-gnome
 power-profiles-daemon
+qalculate-gtk
 python-gobject
 python-pip
 qt5-wayland
