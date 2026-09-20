@@ -30,10 +30,7 @@
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",
-    "ignore-list": [
-      "Alacritty",
-      "kitty"
-    ],
+    "ignore-list": ["Alacritty", "kitty"],
     "app_ids-mapping": {
       "firefoxdeveloperedition": "firefox-developer-edition"
     },
@@ -86,7 +83,7 @@
     "on-click-middle": "playerctl previous",
     "tooltip-format": "Left: Play/Pause\nRight: Next\nMiddle: Previous"
   },
-  
+
   // Cliphist
   "custom/cliphist": {
     "format": "",
@@ -222,7 +219,7 @@
   },
   // Clock
   "clock": {
-    "format": "{:%H:%M %a}",
+    "format": "{:%d %b %H:%M %a}",
     "on-click": "qs ipc call calendar toggle",
     "timezone": "",
     "tooltip": false
@@ -270,13 +267,7 @@
       "children-class": "not-memory",
       "transition-left-to-right": false
     },
-    "modules": [
-      "custom/system",
-      "disk",
-      "cpu",
-      "memory",
-      "hyprland/language"
-    ]
+    "modules": ["custom/system", "disk", "cpu", "memory", "hyprland/language"]
   },
   // Group Tools
   "group/tools": {
@@ -297,10 +288,7 @@
   // Group Links
   "group/links": {
     "orientation": "horizontal",
-    "modules": [
-      "custom/chatgpt",
-      "custom/empty"
-    ]
+    "modules": ["custom/chatgpt", "custom/empty"]
   },
   // Group Settings
   "group/settings": {
@@ -310,11 +298,7 @@
       "children-class": "not-memory",
       "transition-left-to-right": true
     },
-    "modules": [
-      "custom/settings",
-      "custom/waybarthemes",
-      "custom/wallpaper"
-    ]
+    "modules": ["custom/settings", "custom/waybarthemes", "custom/wallpaper"]
   },
   // Network
   "network": {
@@ -328,7 +312,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50,
     "on-click": "~/.config/dotfiles-settings/settings/networkmanager.sh",
-    "on-click-right": "~/.config/dotfiles-settings/scripts/nm-applet.sh toggle",
+    "on-click-right": "~/.config/dotfiles-settings/scripts/nm-applet.sh toggle"
   },
   // Battery
   "battery": {
@@ -344,13 +328,7 @@
     "format-alt": "{icon}  {time}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
-    "format-icons": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
-    ]
+    "format-icons": [" ", " ", " ", " ", " "]
   },
   // Power Profiles Daemon
   "power-profiles-daemon": {
@@ -382,11 +360,7 @@
       "phone": " ",
       "portable": " ",
       "car": " ",
-      "default": [
-        "",
-        "",
-        ""
-      ]
+      "default": ["", "", ""]
     },
     "on-click": "pavucontrol"
   },
