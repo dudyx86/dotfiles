@@ -38,14 +38,23 @@ export GRIMBLAST_EDITOR="$(cat ~/.config/dotfiles-settings/settings/screenshot-e
 
 # Quick instant mode: full screen
 take_instant_full() {
-    grim "$NAME" && notify_user \
+    # --- Clipboard (default) ---
+    grim - | wl-copy && notify_user \
         --a "${APP_NAME}" \
         --i "${NOTIFICATION_ICON}" \
-        --s "Screenshot saved" \
-        --m "$screenshot_folder/$NAME" \
+        --s "Screenshot copied to clipboard" \
+        --m "" \
         --t 1000
 
-    [[ -f "$HOME/$NAME" && -d "$screenshot_folder" && -w "$screenshot_folder" ]] && mv "$HOME/$NAME" "$screenshot_folder/"
+    # --- Save to file instead: uncomment below, comment the clipboard block above ---
+    # grim "$NAME" && notify_user \
+    #     --a "${APP_NAME}" \
+    #     --i "${NOTIFICATION_ICON}" \
+    #     --s "Screenshot saved" \
+    #     --m "$screenshot_folder/$NAME" \
+    #     --t 1000
+    #
+    # [[ -f "$HOME/$NAME" && -d "$screenshot_folder" && -w "$screenshot_folder" ]] && mv "$HOME/$NAME" "$screenshot_folder/"
 }
 
 # Quick instant mode: area selection
@@ -66,14 +75,23 @@ take_instant_area() {
     kill "$pid_picker" 2>/dev/null
     trap - EXIT
 
-    # capture and notify
-    grim -g "$region" "$NAME" && notify_user \
+    # --- Clipboard (default) ---
+    grim -g "$region" - | wl-copy && notify_user \
         --a "${APP_NAME}" \
         --i "${NOTIFICATION_ICON}" \
-        --s "Screenshot saved" \
-        --m "$screenshot_folder/$NAME" \
+        --s "Screenshot copied to clipboard" \
+        --m "" \
         --t 1000
-    [[ -f "$HOME/$NAME" && -d "$screenshot_folder" && -w "$screenshot_folder" ]] && mv "$HOME/$NAME" "$screenshot_folder/"
+
+    # --- Save to file instead: uncomment below, comment the clipboard block above ---
+    # grim -g "$region" "$NAME" && notify_user \
+    #     --a "${APP_NAME}" \
+    #     --i "${NOTIFICATION_ICON}" \
+    #     --s "Screenshot saved" \
+    #     --m "$screenshot_folder/$NAME" \
+    #     --t 1000
+    #
+    # [[ -f "$HOME/$NAME" && -d "$screenshot_folder" && -w "$screenshot_folder" ]] && mv "$HOME/$NAME" "$screenshot_folder/"
 }
 
 # Handle instant flags
