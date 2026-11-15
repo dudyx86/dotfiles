@@ -37,7 +37,6 @@
         "group/tools",
         "tray",
         "custom/notification",
-        "custom/exit",
-        "custom/dot-welcome"
+        "custom/exit"
     ]
 }

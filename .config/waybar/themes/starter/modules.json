@@ -138,13 +138,6 @@
         "tooltip": false
     },
 
-    // App Welcome App
-    "custom/dot-welcome": {
-        "on-click": "flatpak run com.dotfiles.sidebar",
-        "on-click-right": "flatpak run com.dotfiles.welcome",
-        "format": " ",
-        "tooltip-format": "Open Sidebar"
-    },
 
     // ChatGPT Launcher
     "custom/chatgpt": {

@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces","custom/waybarthemes"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["custom/dot-welcome","mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
     // Modules configuration
     "keyboard-state": {
         "numlock": true,
@@ -18,13 +18,6 @@
             "unlocked": ""
         }
     },
-    // App Welcome App
-    "custom/dot-welcome": {
-        "on-click": "sleep 0.1 && ~/.config/dotfiles-settings/settings/dot-sidebar.sh",
-        "on-click-right": "sleep 0.1 && com.dotfiles.welcome",
-        "format": " ",
-        "tooltip": false
-    },    
     // Waybar Themes
     "custom/waybarthemes": {
         "format": "Themes",

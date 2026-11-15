@@ -51,13 +51,6 @@
     },
     "separate-outputs": true
   },
-  // App Welcome App
-  "custom/dot-welcome": {
-    "on-click": "qs ipc call sidebar toggle",
-    "on-click-right": "qs ipc call welcome toggle",
-    "format": " ",
-    "tooltip-format": "Left: Open App Sidebar\nRight: Open App Welcome App"
-  },
   // Empty
   "custom/empty": {
     "format": ""

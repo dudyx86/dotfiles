@@ -206,15 +206,6 @@ window#waybar.empty #window {
 }
 
 
-#custom-dot-welcome {
-    margin-right: 12px;
-    background-image: url("../../assets/dot-icon.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-right: 20px;
-}
-
 #custom-dot-hyprland-settings {
     margin-right: 12px;
     background-image: url("../../assets/hyprland-icon-20.png");

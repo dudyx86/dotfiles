@@ -15,10 +15,6 @@
 
 @import '../style.css';
 
-#custom-dot-welcome {
-    background-image: url("../../../assets/dot-icon-white.svg");
-}
-
 #custom-chatgpt {
     background-image: url("../../../assets/openai-white.svg");
 }

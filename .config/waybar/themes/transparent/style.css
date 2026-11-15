@@ -155,16 +155,6 @@ color:@on_primary;
  * App Icon
  * ----------------------------------------------------- */
 
-#custom-dot-welcome {
-margin-top:5px;
-margin-bottom:5px;
-background-image: url("../../assets/dot-icon.svg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-padding-right: 20px;
-}
-
 /* -----------------------------------------------------
  * Idle Inhibitor
  * ----------------------------------------------------- */

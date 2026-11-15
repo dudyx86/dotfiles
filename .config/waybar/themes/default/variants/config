@@ -36,7 +36,6 @@
         "tray",
         "custom/notification",
         "custom/exit",
-        "custom/dot-welcome",
         "clock"
     ]
 }

@@ -70,7 +70,6 @@
         "custom/exit",
         "clock",
         "tray",
-        "custom/notification",
-        "custom/dot-welcome"
+        "custom/notification"
     ]
 }

@@ -223,15 +223,6 @@ window#waybar.empty #window {
     color: @error;
 }
 
-#custom-dot-welcome {
-    margin-right: 12px;
-    background-image: url("../../assets/dot-icon.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-right: 20px;
-}
-
 /* -----------------------------------------------------
  * Idle Inhibitor
  * ----------------------------------------------------- */
