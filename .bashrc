@@ -35,3 +35,9 @@ done
 if [ -f ~/.bashrc_custom ]; then
     source ~/.bashrc_custom
 fi
+
+# opencode
+export PATH=/home/anildudy/.opencode/bin:$PATH
+
+alias sbr='./mvnw spring-boot:run'
+alias sbrd='./mvnw spring-boot:run -Dspring-boot.run.jvmArguments="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"'
