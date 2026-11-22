@@ -23,7 +23,7 @@
     // Pulseaudio
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}   {volume}%",
+        "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
@@ -46,7 +46,8 @@
     },
     // Modules Left
     "modules-left": [
-        "custom/appmenuicon",
+        "clock",
+        //"custom/appmenuicon",
         "hyprland/workspaces",
         //"group/quicklinks",
         "custom/empty"
@@ -58,7 +59,7 @@
     ],
     // Modules Right    
     "modules-right": [
-        "custom/updates",
+        //"custom/updates",
         "pulseaudio",
         //"backlight",
         "bluetooth",
@@ -68,7 +69,6 @@
         "group/hardware",
         "group/tools",
         "custom/exit",
-        "clock",
         "tray",
         "custom/notification"
     ]

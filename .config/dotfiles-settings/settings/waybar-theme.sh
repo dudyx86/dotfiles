@@ -1,1 +1,1 @@
-/glass-center;/glass-center/default
+/minimal;/minimal
